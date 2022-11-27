@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <!-- // This project use given files
+    // include (yinsert.php , ydbconnection.php ,ystyle.css, yfrom.html , ylogin.php , yfatchdata.php , ca_project.php ); -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIGN UP</title>
+        <link rel="stylesheet" href="ystyle.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h1 class="h1">Register</h1>
+            <form action="yinsert.php" method="POST">
+                <table class="tr">
+                    <tr>
+                        <td><b>Username :</b>                  
+                            <input type="text" class="inputbox" name="username" placeholder="Create Username" autofocus required></td>
+                        </tr>
+                        <tr>
+                            <td><b>Password :</b>
+                                <input type="password" class="inputbox" name="password" placeholder="Create Password" required></td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Nickname : 
+                                    <input type="text" name="nikname" placeholder="Enter nickname">
+                                </td>
+                            </tr>                -->
+                    <tr>
+                        <td><b>Email :</b>
+                        <input type="email" class="inputbox" name="email" placeholder="Enter Email" required></td>
+                    </tr>
+                    <tr>
+                        <!-- <td></td> -->
+                        <td><b>Phone:</b>
+                            <select name="phonecode" class="codebox" required>
+                                <option selected hidden value=""><b>00</b></option>
+                                <option value="977">91</option>
+                                <option value="978">78</option>
+                                <option value="979">39</option>
+                                <option value="973">23</option>
+                                <option value="972">45</option>
+                                <option value="974">94</option>
+                            </select>
+                            <input type="phone" class="inputbox" name="phone" placeholder="Contac Number" required> 
+                        </td>
+                    </tr>
+                    <div style="padding: 0%; margin: 0%;">
+                        <tr>
+                            <td><input type="submit" class="submit" value="Sign up"></td>
+                        </tr>
+                    </div>
+                </table>
+            </form>
+            <div class="div2">
+                <form action="/college/ylogin.php" method="POST">
+                    <input type="submit" class="otherpage" value="Sign in" name="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

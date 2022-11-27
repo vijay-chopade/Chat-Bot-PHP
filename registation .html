@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<Html>  
+	<head>   
+		<title>  
+		Registation Page  
+		</title>  
+	</head>  
+	<body background="C:\Users\sumit\OneDrive\Desktop\project work 2022 mcm\product list\basket.png" link="#000" alink="#017bf5" vlink="#000">
+		<body bgcolor="Lightpink">  
+		<br>  
+		<br>
+		<h1 align="center">
+			<font face="Lato" color="#f62411" size="8"> WEll-COME TO MY SIDE</font>
+		</h1>
+		<form action="regristation.php" method="POST">
+			<label> Firstname </label>         
+			<input type="text"name="firstname" size="25" required/> <br><br>
+			<label> Middlename: </label>     
+			<input type="text" name="middlename" size="25"/> <br> <br>  
+			<label> Lastname: </label>         
+			<input type="text" name="lastname" size="25"/> <br> <br>  
+		<label>   
+			Custemer work details :  
+			</label name="custemer_work_details">   
+			<select>  
+			<option value="Work/Job">Work/Job</option>  
+			<option value="Farmaer">Farmaer</option>  
+			<option value="Gov Officer">Gov Officer</option>  
+			<option value="Arrmy Officer">Arrmy Officer</option>  
+			<option value="Student">Student</option>  
+			<option value="Private employee">Private employee</option>  
+			</select>  
+			
+			<br>  
+			<br>  
+			<label>   
+			Gender :  
+			</label name="gender"><br>  
+			<input type="radio" name="male"/> Male <br>  
+			<input type="radio" name="female"/> Female <br>  
+			<input type="radio" name="other"/> Other <br>  
+			<br>  
+			
+			<label>   
+			Phone :  
+			</label>  
+			<input type="text" name="country code"  value="+91" size="8" />   
+			<input type="text" name="phone" required/> <br> <br>  
+			Address  
+			<br>  
+			<textarea name="address" cols="100" rows="6" value="address">  
+			</textarea>  
+			<br> <br>  
+			Email:  
+			<input type="email" id="email" name="email" required/> <br>    
+			<br> <br>  
+					Password:  
+			<input type="Password" id="pass" name="pass"> <br>   
+			<br> <br>  
+			Re-type password:  
+			<input type="Password" id="repass" name="repass"> <br> <br>
+			<!-- <a href="login from for customer.html">   -->
+			<input type="submit" value="Submit"/>  
+		</form>  
+	</body>  
+</html>
+ <!-- INSERT INTO `registation` (`id`, `fname`, `mname`, `lname`, `custeme_rdetails`, `gender`, `phone`, `address`, `email`, `password`, `date`) VALUES ('1', 'vijya', 'c', 'chopade', 'student', 'male', '1234567897', 'pune', 'abhi12@gmail.com', '123456', current_timestamp()); -->

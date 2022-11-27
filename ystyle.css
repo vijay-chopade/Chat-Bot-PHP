@@ -1,0 +1,80 @@
+/* yfrom.html */
+
+*{
+    /* margin: 0px; */
+    background-image:url(img/Gaming-PC-Wallpaper-HD.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* padding: 0px; */
+}
+
+.img1{
+    margin: 1px 38% 1px;
+}
+.div1{
+    /* text-align:right; */
+    border:double;
+    position:fixed;
+    margin: 6% 32% 6%;
+    border-radius: 5px;
+    border-color: pink;
+}
+.div2{
+    text-align: right;
+    margin-left: 10px;
+    padding: 0%;
+    margin: 0%;
+}
+.inputboxx{
+    margin:5%;
+    /* margin: 10px 9px 9px 40px; */
+    border-radius: 7px;
+    height: 30px;
+    width: 90%;
+    border: solid;
+    border-color: aliceblue;
+    font-size: large;
+    color: aliceblue;
+}
+.inputbox{
+    margin: 3.5px;
+    border-radius: 5px;
+    border-color: azure;
+    height: 30px;
+    width: 95%;
+    font-size: large;
+    color: azure;
+}
+.codebox{
+    border-radius: 5px;
+    border-color: azure;
+    color: aliceblue;
+    background-color: rgb(72, 36, 97);
+}
+.submit{
+    color: skyblue;
+    margin: 3px 3px 3px;
+    border: 0ch;
+    font-size: large;    
+    pointer-events:all ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.otherpage{
+    text-align:right;
+    margin: 3px 3px 3px;
+    border: 0ch;
+    border-radius: 5px;
+    color: skyblue; 
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tr{
+    color: antiquewhite;
+    margin:30px;
+}
+.h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
